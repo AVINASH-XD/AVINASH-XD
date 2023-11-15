@@ -311,7 +311,7 @@ def menu():
     elif AVINASH in ['1']:
         crack_file()
     elif AVINASH in ['2','02']:
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100093430747521')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=61551443378124')
         os.system("python nono.py")
     elif AVINASH in ['3','03']:
         result()
