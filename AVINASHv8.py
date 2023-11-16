@@ -284,48 +284,7 @@ def login_lagi334():
         os.system("rm -f .cok.txt")
         os.system("python nono.py")
         exit()
-
-#------------------[ MENU ]----------------#
- #===©===#
-class jalan:
-    def __init__(self, z):
-        for e in z + "\n":
-            sys.stdout.write(e)
-            sys.stdout.flush()
-            time.sleep(0.040)
-def menu():
-    os.system('clear')
-    print(logo)
-    print(f"\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mUSER NAME\033[1;91m :\033[1;96m "+uname)
-    print("\033[97;1m[\033[92;1m•\033[97;1m] \033[0;93mTODAY'S DATE :\033[1;92m "+date)
-    print('\033[0;97m===============================================')
-    print(f"""\033[97;1m[\033[92;1m1\033[97;1m] \033[0;92mFILE CLONING         """)
-    print("""\033[97;1m[\033[92;1m2\033[97;1m] \033[0;93mCONTACT WITH ADMIN""")
-    print(f"""\033[97;1m[\033[92;1m3\033[97;1m] \033[92;1mCHECK OK IDz   """)
-    print("""\033[97;1m[\033[92;1m0\033[97;1m] \033[0;91mEXIT""")
-    print('\033[0;97m=================')
-    AVINASH = input('\x1b[1;92m[+] CHOOSE: ')
-    if AVINASH in ['111']:
-        login()
-        dump_massal()
-    elif AVINASH in ['1']:
-        crack_file()
-    elif AVINASH in ['2','02']:
-        os.system('xdg-open https://www.facebook.com/profile.php?id=61551443378124')
-        os.system("python nono.py")
-    elif AVINASH in ['3','03']:
-        result()
-    elif AVINASH in ['0']:
-        os.system('rm -rf .token.txt')
-        os.system('rm -rf .cookie.txt')
-        print('\033[0;97m=================')
-        animation(' [×] DONE EXIT ')
-        exit()
-    else:
-        print('\033[0;97m=================')
-        animation(' [×] SELECT CORRECTLY ')
-        back()
- #----------------------[APPROVAL-SYSTEM]----------------#
+#----------------------[APPROVAL-SYSTEM]----------------#
 def approval():
 
   os.system('git pull')
@@ -381,6 +340,47 @@ def approval():
      exit() 
 
 approval()
+#------------------[ MENU ]----------------#
+ #===©===#
+class jalan:
+    def __init__(self, z):
+        for e in z + "\n":
+            sys.stdout.write(e)
+            sys.stdout.flush()
+            time.sleep(0.040)
+def menu():
+    os.system('clear')
+    print(logo)
+    print(f"\033[97;1m[\033[92;1m+\033[97;1m] \033[1;92mUSER NAME\033[1;91m :\033[1;96m "+uname)
+    print("\033[97;1m[\033[92;1m•\033[97;1m] \033[0;93mTODAY'S DATE :\033[1;92m "+date)
+    print('\033[0;97m===============================================')
+    print(f"""\033[97;1m[\033[92;1m1\033[97;1m] \033[0;92mFILE CLONING         """)
+    print("""\033[97;1m[\033[92;1m2\033[97;1m] \033[0;93mCONTACT WITH ADMIN""")
+    print(f"""\033[97;1m[\033[92;1m3\033[97;1m] \033[92;1mCHECK OK IDz   """)
+    print("""\033[97;1m[\033[92;1m0\033[97;1m] \033[0;91mEXIT""")
+    print('\033[0;97m=================')
+    AVINASH = input('\x1b[1;92m[+] CHOOSE: ')
+    if AVINASH in ['111']:
+        login()
+        dump_massal()
+    elif AVINASH in ['1']:
+        crack_file()
+    elif AVINASH in ['2','02']:
+        os.system('xdg-open https://www.facebook.com/profile.php?id=61551443378124')
+        os.system("python nono.py")
+    elif AVINASH in ['3','03']:
+        result()
+    elif AVINASH in ['0']:
+        os.system('rm -rf .token.txt')
+        os.system('rm -rf .cookie.txt')
+        print('\033[0;97m=================')
+        animation(' [×] DONE EXIT ')
+        exit()
+    else:
+        print('\033[0;97m=================')
+        animation(' [×] SELECT CORRECTLY ')
+        back()
+ 
     #-----------------[ HASIL-CRACK ]-----------------#
  
 def result():
